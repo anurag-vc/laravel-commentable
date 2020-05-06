@@ -1,0 +1,50 @@
+{
+    "name": "anurag/commentable",
+    "description": "Commentable Eloquent Models for Laravel",
+    "keywords": [
+        "laravel",
+        "framework",
+        "Laravel-Commentable",
+        "Laravel Commentable"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anurag Trivedi",
+            "email": "anurag.trivedi@viitorcloud.co"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.8|^6.0",
+        "illuminate/database": "^5.8|^6.0",
+        "kalnoy/nestedset": "^5.0"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^5.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "anurag\\Commentable\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "anurag\\Commentable\\CommentableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
